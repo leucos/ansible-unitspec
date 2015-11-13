@@ -23,6 +23,8 @@ We want to run on deb and rpm based systems.
 
 We want to be able to check role or playbook idempotency.
 
+The tool should clearly report *which* task is not idempotent.
+
 ## Ansible version
 
 We want to be able to run our tests against a specific (or multiples)
@@ -38,7 +40,7 @@ restrict test to a specific tag.
 
 ## Branch handling
 
-The testing tool shoul dbe able to handle branches, e.g. test a playbook
+The testing tool should be able to handle branches, e.g. test a playbook
 against a specific role branch, or vice-versa.
 
 Ultimately, we want to be able to test a role on it's devel (or feature)
@@ -57,7 +59,7 @@ container, source repos, ...).
 
 ## Platforms
 
-We wahnt to be able to test in Vagrant, Docker, both (docker-machine),
-Travis, whatever-CI.
+We want to be able to test in Vagrant, Docker, both (docker-machine),
+Travis, whatever-CI, whatever-cloud.
 
 
